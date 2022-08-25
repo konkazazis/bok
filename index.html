@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="./App.css" />
+    <script type="module" src="./App.js"></script>
+  </head>
+  <body>
+
+    <h3>Map Project</h3>
+
+    <!-- Map Div -->
+    <div id="map"></div>
+
+    <!-- Buttons -->
+    <div id="button-sec">
+      <button id="get-location">
+      Bring me back home
+      </button>
+
+      <button id="random">
+      Random Teleport
+      </button>
+    </div>
+
+    <!-- Google API -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDP8hNJk4epj97MFViaOTQ8pWBS85jYFTE&callback=initMap&v=weekly"
+      defer
+    ></script>
+
+  </body>
+</html>
